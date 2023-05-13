@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:16px;
+    text-align: center;
+    
+}
+
+
+header{
+    background-color: rgb(228, 12, 12);
+    color: white;
+    padding: 1px;
+    margin-bottom: 100px;
+    border-radius: solid 5px;
+}
+
+
+main{
+    text-align: center;
+    display:flex;
+    grid: 5px
+    
+}
+
+section{
+    border-radius: 18px;
+    border: solid 2px black;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.233);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+ 
+@media(max-width: 600px ){
+    section{
+        background-color: rgba(130, 238, 148, 0.377);
+    }
+}
+    
+img{
+    width: 200px;
+    border-radius: solid 5px red;
+}
+
+footer{
+    background-color: rgb(228, 12, 12) ;
+    color: white;
+    padding: 1px;
+    margin-top: 100px;
+    
+}
